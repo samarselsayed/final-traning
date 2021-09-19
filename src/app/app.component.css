@@ -1,0 +1,75 @@
+/*--navBar style--*/
+
+.navbar-expand-md {
+  background-color: rgb(118, 200, 255) !important;
+}
+
+.navbar-expand-md .navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.navbar-expand-md .navbar-nav .nav-item .nav-link {
+  font-size: 1.1rem;
+  color: #ffffff !important;
+}
+
+.navbar-expand-md .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 5px solid #000;
+  border-radius: 15px;
+  transition: border-bottom 1s ease-in-out;
+}
+
+/*-- footer style --*/
+footer {
+  font-size: 1.5rem;
+}
+
+footer .follow-us {
+  margin-top: 18px;
+}
+
+footer .follow-us i:hover {
+  color: rgb(118, 200, 255);
+  transition: color 1.2s ease-out;
+}
+
+
+
+
+
+
+
+
+
+/*-- responsive design --*/
+/* Mobile Phones */
+@media (max-width: 767.98px) {
+  .navbar-expand-md .navbar-nav {
+    margin-top: 20px;
+    width: 20%;
+    margin: auto;
+
+  }
+
+  .navbar-expand-md .navbar-nav .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-item .nav-link:hover {
+    border: none;
+    background-color: #000;
+    color: white !important;
+    border-radius: 50px;
+  }
+
+
+}
+
+/* tablets */
+@media (max-width: 991.98px) {
+  footer .copyright {
+    margin-top: 12px;
+  }
+}

@@ -1,0 +1,60 @@
+.showcase {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url('../../assets/img/bg.jpg');
+  padding-top: 10rem;
+  padding-bottom: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+
+.showcase h2 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-shadow: .4px .4px .4px #ccc;
+}
+
+.showcase h3 {
+  font-size: 1.4rem;
+}
+
+.showcase hr {
+  width: 50%;
+  margin: 25px auto;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+.showcase p {
+  width: 60%;
+  margin: 10px auto;
+}
+
+
+.rated {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.rated h2 {
+  background-color: rgb(118, 200, 255);
+  font-weight: 400;
+  background-size: cover;
+  margin-top: 5rem;
+  color: white;
+}
+
+.rated .card:hover {
+  box-shadow: 0 0 20px 0px rgb(118, 200, 255);
+  display: block;
+}
+
+@media (max-width: 767.98px) {
+  .showcase h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-shadow: .4px .4px .4px #ccc;
+  }
+}

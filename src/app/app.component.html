@@ -1,0 +1,61 @@
+
+<!--navBar  section-->
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" routerLink="">
+      <i class="fas fa-film"></i> CINEMA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item px-2">
+          <a class="nav-link active" routerLink="">Home</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" routerLink="Movies">Movies</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" routerLink="Thriller">Thriller</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" routerLink="Drama">Drama</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" routerLink="SciFiction">Sci-Fiction</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" routerLink="About">About</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" routerLink="ContactUs">Contact Us</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+
+
+<!--footer section -->
+<footer class="text-center text-dark bg-light p-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 ">
+        <div class="follow-us">
+          Follow Us <i class="fab fa-facebook px-1"></i>
+          <i class="fab fa-instagram px-1"></i>
+          <i class="fab fa-twitter px-1"></i>
+          <i class="fab fa-linkedin px-1"></i>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12">
+          <div class="copyright">
+            copyright &copy; 2021 Made with &hearts;<br>
+            Created by <span> RANEEM & SAMAR  </span> All Right Reserved
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
